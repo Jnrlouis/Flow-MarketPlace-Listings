@@ -1,0 +1,46 @@
+.container {
+    background-color: #171923;
+    min-height: 100vh;
+  }
+  
+  .main {
+    color: antiquewhite;
+    text-align: center;
+    text-align: justify;
+    padding: 0 4em;
+    background-color: #171923;
+  }
+
+  .scroller {
+    width: auto;
+    height: 700ch;
+    overflow-y: auto; 
+  }
+
+  .h2 {
+    text-align: center;
+    text-justify: auto;
+    padding: 4em 4em 0.5em 4em;
+    font-size: 3em;
+  }
+
+  .h4 {
+    text-align: center;
+    text-justify: auto;
+    font-style: italic;
+  }
+  
+  .domainsContainer {
+    display: flex;
+    gap: 4em;
+    flex-wrap: wrap;
+  }
+  
+  .domainInfo {
+    padding: 2em;
+    color: antiquewhite;
+    background-color: darkslategray;
+    border-radius: 2em;
+    cursor: pointer;
+    max-width: 65ch;
+  }
